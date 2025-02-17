@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
           ),
           ElevatedButton(
               onPressed: () async{
-            int a=  await  insertUser({"name":"john",'email':"abc@gmail.com"});
+            int a=  await  insertUser({"name":"john",'email':"abc@gmail.com",'age':90});
             print(a);
               },
               child: Text("Save")),
